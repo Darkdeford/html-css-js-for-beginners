@@ -1,4 +1,4 @@
-body {
+body {  /* this is how your styles should look like, correct rest */
 	font-size: 20px;
 	background-color: #e5e7e8;
 }
@@ -19,13 +19,13 @@ body {
 	width:820px;
 	text-align:center;
 	margin:15px;
-	background-color:yellow;
+	background-color:yellow;  /* do not use names */
 	padding: 10px 0px 10px 0px;
 	font-size: 45px;
 
 }
 
-#titlepicture
+#titlepicture   /* snake-case */
 {
 	float:left;
 	width:120px;

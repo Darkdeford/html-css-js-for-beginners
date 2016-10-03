@@ -4,6 +4,22 @@
     	<meta charset="UTF-8">
     	<title>Assignment-1</title>
     	<link rel="stylesheet" type="text/css" href="style.css">
+    	<script type="text/javascript">
+function pokaz_confirm()
+{
+	var r=confirm ("Lorem ipsum dolor sit amet quam. Ut lobortis volutpat. Pellentesque molestie egestas, nunc eget lectus varius risus nec cursus a, iaculis mi. Aliquam erat volutpat. Nam interdum vehicula. Etiam semper, enim fringilla augue sit amet dolor. Praesent tortor nibh, pretium eget, sollicitudin fringilla. Phasellus vestibulum. Pellentesque at fermentum imperdiet aliquam quis, interdum arcu nec ipsum. Nunc gravida. Pellentesque bibendum, neque vitae velit et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum risus facilisis pharetra. Suspendisse auctor, tempor")
+	if (r==true)
+  {
+  alert("Dziękuje za przeczytanie!:)");
+  }
+else
+  {
+  alert("Za kliknięcie Ok było podziękowanie za przeczytanie całości:)");
+  }
+
+}
+
+</script>
 	</head>
 	<body>
 		<div id="box">
@@ -16,8 +32,13 @@
 					<input class="bottom" size="100%" type="text" name="text" placeholder="SEARCH  &#xe808;" /> 
 					</div>
 				</div>
-				<div id="content"></div>
-				<div id="map"></div>
+				<div id="map">
+					<img src="img/map1.png">
+				</div>
+				<div id="content"><img src="img/Dziewczyny.jpg" width="95%" height="280px">
+				Lorem ipsum dolor sit amet quam. Ut lobortis volutpat. Pellentesque molestie egestas, nunc eget lectus varius risus nec cursus a, iaculis mi. Aliquam erat volutpat. Nam interdum vehicula. Etiam semper, enim fringilla augue sit amet dolor. Praesent tortor nibh, pretium eget, sollicitudin fringilla. Phasellus vestibulum. Pellentesque at fermentum imperdiet aliquam quis, interdum arcu nec ipsum. Nunc gravida. Pellentesque bibendum, neque vitae velit et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum risus facilisis pharetra. Suspendisse auctor, tempor scelerisque, wisi id nulla vitae ante. Proin orci. Proin id lectus. Curabitur...
+				<input type="button" onclick="pokaz_confirm()" value="Czytaj więcej.." />
+				</div>
 				<div id="items">
 					<div id="itemlist">
 						<ul>
@@ -40,14 +61,34 @@
 							</SELECT>
 						</form>
 						<span id="gay">
-						<input type="checkbox"><label id="check" for="checkbox">Are you gay?</label>
+							<input type="checkbox"><label id="check" for="checkbox">Are you gay?</label>
 						</span>
-						<div id="submit">
+						<span id="submit">
 						<input type="submit" value="Login">
-						</div>
+						</span>
 					</fieldset>
 				</div>
-				<div id="footer"></div>
+				<div id="footer">
+					<span class="mapsmall">
+					<img src="http://motormania.com.pl/wp-content/uploads/2012/04/Wschod-slonca-w-Pirenejach.jpg">
+					</span>
+					<span class="firstwindow">
+						<ul>
+							<li>Item One</li>
+							<li>Item Two</li>
+						</ul>
+
+					</span>
+					<span class="secondwindow">
+						<ul>
+							<li>Item One</li>
+							<li>Item Two</li>
+							<li>Item Three</li>
+							<li>Item Four</li>
+							<li>Item Five</li>
+						</ul>
+					</span>
+				</div>
 		</div>
 	</body>
 </html>

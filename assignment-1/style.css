@@ -3,48 +3,38 @@ body {  /* this is how your styles should look like, correct rest */
 	background-color: #e5e7e8;
 }
 
-#container
-{
+#container{
 	width:1000px;
 	margin-left:auto;
 	margin-right:auto;
 	background-color: #d4d6d7;
-
-
 }
 
-#title
-{
+#title{
 	float:left;
 	width:820px;
 	text-align:center;
 	margin:15px;
-	background-color:yellow;  /* do not use names */
+	background-color:yellow; 
 	padding: 10px 0px 10px 0px;
 	font-size: 45px;
-
 }
 
-#titlepicture   /* snake-case */
-{
+#title-picture {
 	float:left;
 	width:120px;
 	margin:15px;
 }
 
-#items
-{
+#items{
 	width:176px;
 	height: 200px;
 	background-color:green;
 	border:2px black solid;
 	margin: 10px;
-
-
 }
 
-#content
-{
+#content{
 	width:356px;
 	height:370px;
 	margin:10px;
@@ -53,55 +43,108 @@ body {  /* this is how your styles should look like, correct rest */
 	float:left;
 }
 
-#map
-{
+#map{
 	width:356px;
 	height: 370px;
 	margin:10px;
 	padding:10px;
 	border: 2px black solid;
 	float:left;
-
 }
 
-#form
-{
+#form{
 	width:166px;
 	height:370px;
-	margin:10px;
+	margin: 10px;
 	border: 2px solid black;
 	padding:10px 5px 15px 5px;
 }
 
-#search
-{
+#search{
 	border-radius:10px;
 	margin-left: 35px;
-
 }
 
-#scontainer
-{
+#smallcontainer{
 	float:left;
 }
 
-#footer
-{
-
-	
+#footer{	
+	background-color: red;
+	height: 110px;
+	border: 3px solid #000000;
 }
 
-.footeritems
-{
+.footeritems{
 	background-color: blue;
 	float:left;
-	width:35%;
-
+	width:20%;
+	height: 82px;
+	margin: 15px 75px 15px 75px;
+	padding: 0px;
 }
 
-#photo
-{
-	background-color: orange;
+#photo{
+	background-color: red;
 	float: left;
 	width: 30%;
+}
+
+#main-list{
+	list-style:none;	
+	padding:5px;
+	margin: 5px;
+}
+
+#test{
+	width:356px;
+	height: 150px;
+	margin-bottom:15px;
+}
+
+#content-text{
+	width:356px;
+	max-height:200px;
+}
+
+#Select{
+	display:block;
+}
+
+#submit{
+	float:right;
+}
+
+.formin{
+	margin:10px 0px 30px 0px;
+}
+
+.footeritems2{
+	background-color: red;
+	float:left;
+	width:20%;
+	height: 84px;
+	margin: 15px 75px 15px 71px;
+}
+
+img[src="img/test2.jpg"] {
+	width:190px;
+	height: 85px ;
+	margin: 14px 30px 6px 50px;
+	border:2px black solid;
+}
+
+.list-style{
+	list-style:none;
+	padding:5px;
+	margin: 0px 0px 8px 0px;
+	padding:5px;
+	border: 2px solid black;
+}
+
+.list-style2{
+	list-style:none;
+	padding:5px;
+	margin: 1px 10px 10px 0px;
+	width:200px
 }

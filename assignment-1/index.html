@@ -7,56 +7,79 @@
 </head>
 <body>
 
-<div id="container">
-	<div id="titlepicture"><!-- use snake-case in names -> title-picture -->
-		<i class="icon-users"></i>
-	</div>
-	<div id="title">A Big Title</div>
-
-	<div style="clear:both"></div> <br/> <!-- delete <br /> use paddings margins, style to css! -->
-	<input id="search" type="text" size="150%" value="search" />
-	<br/>
-
-	<div id="scontainer"> <!-- s-container, try to use better names, which will describe more precisly their content -->
-		<div id="items">    <!-- ul -->
-			item one <br/>  <!-- li -->
-			item two <br/>
-			item three <br/>
+	<div id="container">
+		<div id="title-picture">
+			<i class="icon-users"></i>
 		</div>
-		<div id="form"></div>
-	</div>
+		<div id="title">A Big Title</div>
 
-	<div id="content"></div>
-	<div id="map"></div>
+		<div style="clear:both"></div> <br/> 
 
-	<div style="clear:both"></div>
+		<input id="search" type="text" size="150%" placeholder="Search" />
+		<br/>
 
-	<div id="footer">
-		<div id="photo"> <!-- ul -->
-			<br/>   <!-- li -->
-			<br/>
-			<br/>
+		<div id="smallcontainer"> 
+			<div id="items"> 
+				<ul id="main-list">
+					<li>Item one</li>
+					<li>Item two</li>
+					<li>item three</li>
+
+				</ul>
+
+			</div>
+			<div id="form">
+					<label class="formin">Name:</label>
+					<input class="formin" type="text" placeholder="Your name" required>
+					<label class="formin">Gender<label>
+					<select id="Select" class="formin">
+						<option disabled="disabled" selected="selected">Choose</option>
+						<option>Male</option>
+						<option>Female</option>
+					</select>
+					<input type="radio" id="gay" class="formin">Bartek is a gay?
+					<input type="submit" value="submit" id="submit" class="formin">
+			</div>
 		</div>
-		<div class="footeritems"> <!-- ul -->
-			Item one <br/>  <!-- li -->
-			Item two <br/>
-			Item three <br/>
+
+		<div id="content">
+			<img src="img/test.jpg" id="test">
+			<div id="content-text">
+				Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia.
+			</div>
 		</div>
-		<div class="footeritems"> <!-- ul -->
-			Item one <br/>  <!-- li -->
-			Item two <br/>
-			Item three <br/>
+		<div id="map"></div>
+
+		<div style="clear:both"></div>
+
+		<div id="footer">
+			<div id="photo"> 
+				<img src="img/test2.jpg" >
+			</div>
+			<div class="footeritems">
+				<ul class="list-style">
+					<li>Item one</li>
+					<li>Item two</li>
+					<li>item three</li>
+
+				</ul>
+				
+			</div>
+			<div class="footeritems2"> 
+				<select class="list-style2" size="3">
+					<option>Item one</option>
+					<option>Item two </option>
+					<option>Item three </option>
+					<option>Item four </option>
+					<option>Item five </option>
+					<option>Item six </option>
+					<option>Item sever </option>
+					<option>Item eight </option>
+				</select>
+				
+			</div>
 		</div>
-	</div>
-            <!-- delete this space, nest properly tags body is child of html, also div is child of body, but your structure
-            isn't clear about that -->
-
-
-	
-
-</div>
-
-
+	           
 </body>
 
 </html>
